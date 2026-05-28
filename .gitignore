@@ -35,7 +35,7 @@
 .idea/
 
 # VS Code cache directory
-.vscode/
+.vscode/*
 
 # Unity .utmp directory
 .utmp
@@ -86,3 +86,7 @@ keystore-passwords.txt
 ProjectSettings/Packages/com.unity.probuilder/Settings.json
 *.blend1
 *.blend1.meta
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
